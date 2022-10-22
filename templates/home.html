@@ -3,61 +3,104 @@
  <head>  
    
    <title> Zeus.ai </title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
    <style>
-
-     h1{
-       font-size:40px;
-       font-family:Roboto;
-       font-weight:normal;
-       color: rgb(50,50,50);   
-       text-align:center;
-     }
      
-     #banner{ width: 100%;
-                height : 360px; 
+     #banner {
+       width: 100%;
+       height : 250px;
      }
-
-      h2{
-       font-size:32px;
-       font-family:Roboto;
-       font-weight:normal;
-       color: rgb(100,100,100);   
-       text-align:center;
-     }
-
-     .bodytext{font-size:15px;
-       font-family:Roboto;
-       font-weight:normal;
-       color: rgb(80,80,80);   
-       text-align:center;
-      
-     }
-     #container {max-width:720px;
-                 margin:0 auto 0 auto;
-
-         
-       }
-     
    </style>
+
+   
  </head>
  <body> 
-    <div id = "container" > 
-    <h1> Change.ai
-    <img id ='banner' src="https://ed-tech-website.sabyasachighos1.repl.co/static/banner.jpeg" >
-    </h1> 
-     <h2>About Change.ai Competition Platform</h2>
-     <p class='bodytext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <div class='container' > 
+    <h1 class='text-center mt-4 mb-2'> Change.ai</h1> 
+    <img class='img-fluid' id ='banner' 
+      src="https://ed-tech-website.sabyasachighos1.repl.co/static/banner.jpeg" >
+   
+     <h2 class='text-center mt-4 mb-2' >About Change.ai Competition Platform</h2>
+     <p class="lead" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
      </p>
+      <div class='text-center mt-4 mb-2' >
+      <button type="button" class="btn btn-info ">Join Our Community 
+      </button>
+      </div>
       
-     <h2> Open Competitions </h2>
+     <h2 class='text-center mt-4 mb-2 bg-light text-dark'> Open Competitions </h2>
       
-     <p class='bodytext'> Show the competitions here </p>
       
-    <div style = 'text-align:center';>
+     <p> Show the competitions here </p>
+
+
+
+
+      
+  <div class="card-group">
+    <div class="card" style="width: 18rem;">
+    <img class='img-fluid' id ='banner' 
+      src="https://ed-tech-website.sabyasachighos1.repl.co/static/banner3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title text-center">Malaria detection </h5>
+    <p class="card-text text-center">Detection of Malaria parasites through blood smear slide images</p>
+    </div>
+    <ul class="list-group list-group-flush">
+    <li class="list-group-item">Prize money : ₹200000</li>
+    </ul>
+    <div class="card-body">
+    <a href="#" class="card-link">Link to Dataset</a>
+    <a href="#" class="card-link">Leaderboard</a>
+    </div>
+    <a href="#" class="btn btn-primary">Submission link </a>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+    <img class='img-fluid' id ='banner'
+      src="https://ed-tech-website.sabyasachighos1.repl.co/static/banner5.jpg" class="card-img-top" alt="..." height :200px>
+    <div class="card-body">
+    <h5 class="card-title text-center">Leaf Disease Classification  </h5>
+    <p class="card-text text-center">Identify the type of disease present on a various Leaf image</p>
+    </div>
+    <ul class="list-group list-group-flush">
+    <li class="list-group-item">Prize money : ₹350000</li>
+    </ul>
+    <div class="card-body">
+    <a href="#" class="card-link">Link to Dataset</a>
+    <a href="#" class="card-link">Leaderboard</a>
+    </div>
+    <a href="#" class="btn btn-primary">Submission link </a>
+    </div>
+      <div class="card" style="width: 18rem;">
+    <img class='img-fluid' id ='banner'
+      src="https://ed-tech-website.sabyasachighos1.repl.co/static/banner6.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title text-center">Fruit Price Prediction  </h5>
+    <p class="card-text text-center">Estimation of Fruit prices based on market trends & global hunger index
+    </p>
+    </div>
+    <ul class="list-group list-group-flush">
+    <li class="list-group-item">Prize money : ₹150000</li>
+    </ul>
+    <div class="card-body">
+    <a href="#" class="card-link">Link to Dataset</a>
+    <a href="#" class="card-link">Leaderboard</a>
+    </div>
+    <a href="#" class="btn btn-primary">Submission link </a>
+    </div>
+    
+  </div
+    
+    </div>
+      
+    <div class='text-center mt-4 mb-2' >
         
-     <button>contact us</button>
+     <button class="btn btn-primary btn-lg">Contact us </button>
         
-        <p>Copyright 2022 @Change.ai</p>
+        <p class='mt-4'>Copyright 2022 @Change.ai</p>
+      
     </div>
    </body>
    
