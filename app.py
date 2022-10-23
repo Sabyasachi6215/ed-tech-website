@@ -4,28 +4,22 @@ app = Flask(__name__)
 JOBS=[
   {
     'id':0,
-    'title':'Data Analyst',
-    'location':'Bangalore',
-    'salary':'Rs 6.5 lpa',
+    'title':'Malaria Detection',
+    'description':'Detection of Malaria parasites through blood smear slide images',
+    'salary':'Rs 2 lakhs',
   },
   {
     'id':1,
-    'title':'Data Scientist',
-    'location':'Mumbai',
-    'salary':'Rs 10.5 lpa',
+    'title':'Leaf Disease Classification',
+    'location':'Identify the type of disease present on a various Leaf image',
+    'salary':'Rs 3.5 lakhs',
   },
   {
     'id':2,
-    'title':'DevOps Engineer',
-    'location':'Delhi',
-    'salary':'Rs 12.5 lpa',
+    'title':'Fruit Price Prediction',
+    'location':'Estimation of Fruit prices based on market trends & global hunger index',
+    'salary':'Rs 1.5 lakhs',
   },
-  {
-    'id':3,
-    'title':'Data Engineering',
-    'location':'Germany',
-    'salary':'Euro 5k',
-  }
 
 ]
 
