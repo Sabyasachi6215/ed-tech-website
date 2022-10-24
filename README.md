@@ -28,3 +28,9 @@ https://ed-tech-website.sabyasachighos1.repl.co/#
   4) Introduce a proper domain name.
      https://domains.google/intl/en_in/?gclid=CjwKCAjwzNOaBhAcEiwAD7Tb6GESS10LbekTA1J0Nt74gMcrbpHVDm_tjR1yE3Do8ED4xxdSfEduLhoCC7IQAvD_BwE&gclsrc=aw.ds
   
+# Demo for the Website :
+![image](https://user-images.githubusercontent.com/54863241/197446590-bf36f2e7-c00f-4da5-9c6e-dc21d6c59eec.png)
+![image](https://user-images.githubusercontent.com/54863241/197446648-34f149b6-4d3e-4857-b881-cdaa7b8d84e8.png)
+![image](https://user-images.githubusercontent.com/54863241/197446684-85393f30-0e8c-40d0-90ee-46f42146b17e.png)
+
+
